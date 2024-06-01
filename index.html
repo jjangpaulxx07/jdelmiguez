@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JPD PERSONAL WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/3b98428059.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/images/logo.png">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">Profile</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>The creative canvas of</p>
+                <h1>John Paul N. Delmiguez<br><span>"A portfolio showcase"</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- Profile Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/paul.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I’m John Paul N. Delmiguez, an enthusiastic individual fueled by a passion for continual learning and growth. 
+                        Currently taking up Bachelor of Science in Information Technology from the University of Science and Technology of Southern Philippines. 
+                        Where I honed my skills as an individual and cultivated a deep understanding of the IT industry.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('aboutme')">About ME</p>
+                            <p class="tab-links" onclick="opentab('favorites')">Favorites</p>
+                            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="aboutme">
+                            <ul>
+                                <li><span>Name:</span> "John Paul Delmiguez"</li>
+                                <li><span>Birthdate:</span> "June 18, 2004"</li>
+                                <li><span>Birthplace:</span> "Cagayan de Oro City"</li>
+                                <li><span>Religion:</span> "Roman Catholic"</li>
+                                <li><span>Blood Type:</span> "O"</li>
+                                <li><span>Height:</span> "172cm"</li>
+                                <li><span>Weight:</span> "57kg" </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="favorites">
+                            <ul>
+                                <li><span>Favorite hobbies or activities:</span> Dancing and Listening to music</li>
+                                <li><span>Favorite books, movies, or TV shows:</span> Self-care books, Any genre, and Amazing Race, Survivor, Drag Race</li>
+                                <li><span>Places you've traveled to or would like to visit:</span> I would like to travel someday in some europian and asian countries.</li>
+                                <li><span>Goals or ambitions for the future:</span> Personal and Career development.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="skills">
+                            <ul>
+                                <li><span>Customer Service Skills:</span> Patience, Problem-solving, Conflict resolution</li>
+                                <li><span>Adaptability Skills:</span> Flexibility, Resilience, Ability to learn quickly, Open-mindedness</li>
+                                <li><span>Interpersonal Skills:</span> Empathy, Conflict resolution, Teamwork</li>
+                                <li><span>Communication Skills:</span> Verbal communication, Written communication, Presentation skills</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+            <video class="about-video" controls autoplay src="images/myself.mp4"></video>
+        </div>
+    </div>      
+    <!-- Education Section -->
+    <div id="education">
+        <div class="container">
+              <h1 class="sub-title">Education</h1>
+              <div class="school">
+                <div class="edu">
+                    <img src="/images/1.png">
+                    <div class="layer">
+                        <h3>Bulua Central School</h3>
+                        <p>Kindergarten <br> 2009-2010</p>
+                        <a href="#"><i class="fa-solid fa-school"></i></a>
+                    </div>
+                </div>
+                <div class="edu">
+                    <img src="/images/2.png">
+                    <div class="layer">
+                        <h3>Pedro Oloy N. Roa Sr. Elementary School</h3>
+                        <p>Elementary <br> 2010-2016</p>
+                        <a href="#"><i class="fa-solid fa-school"></i></a>
+                    </div>
+                </div>
+                <div class="edu">
+                    <img src="/images/3.png">
+                    <div class="layer">
+                        <h3>Pedro Oloy N. Roa Sr. High School</h3>
+                        <p>Junior High School <br> 2016-2020</p>
+                        <a href="#"><i class="fa-solid fa-school"></i></a>
+                    </div>
+                </div>
+                <div class="edu">
+                    <img src="/images/4.png">
+                    <div class="layer">
+                        <h3>Liceo de Cagayan University</h3>
+                        <p>Senior High School <br> 2020-2022</p>
+                        <a href="#"><i class="fa-solid fa-school"></i></a>
+                    </div>
+                </div>
+                <div class="edu">
+                    <img src="/images/5.png">
+                    <div class="layer">
+                        <h3>University of Science and Technology of Southern Philippines</h3>
+                        <p>College <br> 2022-Present</p>
+                        <a href="#"><i class="fa-solid fa-school"></i></a>
+                    </div>
+                </div>
+              </div>
+              <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+<!-- Experience Section -->
+<div id="experience">
+    <div class="container">
+        <h1 class="sub-title">My Work Experience</h1>
+        <div class="experience">
+            <div class="experience-item">
+                <img src="images/mcdo.jpg" alt="Service Crew Worker Image">
+                <div class="experience-content">
+                    <h2>Service Crew Worker</h2>
+                    <p>Working at McDonald's has been an enriching experience, where I've honed my customer service skills, learned the importance of teamwork, and thrived in a fast-paced setting. 
+                        Each shift presents unique challenges that have taught me to adapt quickly and prioritize tasks effectively.
+                        <br>
+                        <br>In addition to mastering the art of efficient and friendly customer service, I've gained valuable skills in multitasking, problem-solving, and communication. My responsibilities included taking orders, preparing food, maintaining cleanliness, and ensuring a 
+                        positive dining experience for customers.
+                        <br>
+                        <br>This role has also provided me with a strong foundation in time management, attention to detail, and the ability to work under pressure. This experience has equipped me with valuable skills 
+                        that I can carry forward into future endeavors.</p>
+                        <a href="https://www.mcdonalds.com.ph/" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-phone"></i> 0997-355-1713</p> 
+                <p><i class="fa-solid fa-location-dot"></i> Blk 13 Lot 6 Calaanan, Canitoan CDO</p> 
+                <p><i class="fa-solid fa-paper-plane"></i> delmiguez.johnpaul2004@gmail.com</p>
+                <p>
+                    <i class="fa-brands fa-square-github"></i> <a href="https://github.com/jjangpaulxx07">https://github.com/jjangpaulxx07</a>
+                </p>
+                <p>
+                    <i class="fa-brands fa-square-facebook"></i> 
+                    <a href="https://www.facebook.com/yoontaeseoh/">https://www.facebook.com/yoontaeseoh/</a>
+                </p>
+                <a href="images/Delmiguez Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="copyright">
+            <p>Copyright @ Paul</p>
+        </div>
+    </div>
+<script src="javascript.js"></script>
+</body>
+</html>
